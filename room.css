@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+header {
+  background-color: rgb(130, 45, 45);
+  height: 107px;
+  position: relative;
+}
+
+.menu-bar img{
+  height: auto;
+  margin-top: auto;
+  margin-left: 1%;
+}
+.dreams p{
+  margin-left: 9%;
+  margin-top: -65px;
+  color: wheat;
+  font-size: large;
+  font-weight: 400;
+  display: block;
+}
+.search {
+  margin-top: -5%;
+}
+.search-bar {
+  width: 40vw;
+  padding: 0.5%; 
+  border: 1px solid #ccc; 
+  border-radius: 11px; 
+  font-size: medium; 
+  margin-left: 27%;
+}
+.search i{
+  color: rgb(61, 66, 72);
+  margin-left: -2.5%;
+  padding: 0.5%;
+}
+
+header a {
+  text-decoration: none;
+  display: inline-block; /* Changed to inline-block for better alignment */
+  color: rgb(27, 206, 21);
+  font-size: medium;
+  transition: color 0.3s ease; /* Added transition for hover effect */
+  margin: 2px;
+}
+.menu{
+  margin-left: 68%;
+  margin-top: -3%;
+}
+
+header a:hover {
+  color: rgb(185, 159, 159); /* Added hover effect for better UX */
+  font-size: larger;
+}
+.user-options {
+  display: flex;
+  gap: 10px;
+  margin-left: 82%;
+  margin-top: 1%;
+  font-weight: bold;
+}
+
+.login-btn, .signup-btn {
+  background-color: #1eff00; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover, .signup-btn:hover {
+  background-color: #1eff00; /* Darker shade on hover */
+}
+
+.login-btn:focus, .signup-btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.bar p{
+  font-size: 2rem;
+  color: whitesmoke;
+  margin-left: 95%;
+  margin-top: -3%;
+}
+
+/*main*/
+main {
+    padding: auto;
+    width: 100vw;
+    height: auto;
+    margin-top: 10px;
+    position: relative;
+}
+main img {
+    width: 42%;
+    border-radius: 9px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.Details h3 {
+    margin-left: 47%;
+    margin-top: -42%;
+    font-weight: bolder;
+    font-size: x-large;
+    color: red;
+    margin-bottom: 30%;
+    text-decoration: double;
+}
+.Details h5 {
+    margin-left: 48%;
+    margin-right: 5%;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: -28%;
+}
+.Details p {
+    color: rgba(157, 49, 10, 0.834);
+    font-size: large;
+    margin-left: 60%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.Details button {
+  background-color: rgb(39, 201, 222);
+  color: whitesmoke;
+  border-radius: 2px;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  margin-left: 50%;
+  margin-bottom: 8%;
+  width: 15%;
+}
+.calendar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70%;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: -8%;
+}
+
+.date-picker {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.date-picker label {
+  margin-right: 10px;
+  background-color: aquamarine;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+}
+
+input[type="date"] {
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: rgb(134, 255, 215);
+  color: white;
+  cursor: pointer;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 170%;
+  animation: slide 15s infinite;
+}
+
+.slider .room-img {
+  width: 20%; /* Adjust based on the number of images */
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-20%); }
+  40% { transform: translateX(-40%); }
+  60% { transform: translateX(-60%); }
+  80% { transform: translateX(-80%); }
+  100% { transform: translateX(0); }
+}
+
+/*footer*/
+footer {
+    background-color: rgba(26, 24, 24, 0.908);
+    padding: 30px;
+  }
+  
+  footer p {
+    color: whitesmoke;
+    font-size: medium;
+    text-decoration: none;
+    margin-left: 40%;
+  }
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  .social-media a {
+    margin-right: 42%;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+  
+  .social-media a:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+  }
+
+  @media (max-width: 600px) { 
+    header { 
+      height: auto;
+       padding: 10px; 
+      text-align: center; 
+     } 
+  .menu-bar img {
+   margin-left: 0;
+   width: 50%;
+   justify-content: center;
+  } 
+  .dreams p{
+   margin-left: 5%; 
+   font-size: medium;
+   margin-top: 2%;
+   }
+  .search {
+    margin-top: 5px;
+   }
+  .search-bar {
+    width: 88vw; 
+    margin-left: -4%;
+    padding: 2%;
+    margin-top: 2%; 
+  }
+  .search i {
+  font-size: 1.2em;
+  margin-left: -2.5rem;
+  }
+  .menu { 
+  margin-left: 0;
+  margin-top: 10px; 
+  text-align: center;
+  }
+ .user-options {
+  margin-left: 0; 
+  flex-direction: column;
+  text-align: center;
+  } 
+  .login-btn {
+    margin-left: 11.7%;
+    flex-direction: column;
+    width: 70vw;
+   }
+   .signup-btn {
+    margin-left: 0;
+    flex-direction: column;
+    text-align: center;
+    width: 70vw;
+   }
+   .bar i {
+    margin-left: -3rem;
+   }
+ .section { 
+ flex-direction: column;
+ align-items: center; 
+  } 
+ .box {
+  width: 90%;
+  }
+ main img {
+  width: 80%;
+  margin-left: 10%; 
+ }
+ .Details h3, .Details p {
+  margin-left: 0%;
+  text-align: center;
+  margin-top: 5%;
+ }
+ .Details h5 {
+  margin-left: 0%;
+  text-align: center;
+  font-size: small;
+ }
+ .Details button {
+  width: 50%;
+  padding: 5%;
+  margin-left: 15%;
+  background-color: #1eff00;
+ }
+ .calendar {
+  margin-left: 0;
+  text-align: center;
+ }
+ footer p {
+  margin-left: 0;
+  text-align: center;
+ }
