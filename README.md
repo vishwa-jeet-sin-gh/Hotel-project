@@ -1,6 +1,5 @@
 # Suinet Paradise Hotel Website
-
-Welcome to the Suinet Paradise Hotel website project! This is a responsive web application designed for users to explore hotel offerings, make reservations, and sign up for an account. The website features a modern design and user-friendly interface.
+Suinet Paradise is more than just a hotel booking website—it's a project deeply connected to my heart. This project reflects my passion for web development and my dedication to creating seamless user experiences. Every detail, from the intuitive navigation to the elegant design, has been crafted with care to ensure users find the perfect stay effortlessly.
 
 ## Table of Contents
 
