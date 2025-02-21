@@ -28,3 +28,5 @@ Welcome to the Suinet Paradise Hotel website project! This is a responsive web a
 - [Google Fonts](https://fonts.google.com/) (for typography)
 
 - Contributions are welcome! If you have suggestions for improvements or new features, feel free to fork the repository and submit a pull request.
+
+  ![image_alt](https://github.com/vishwa-jeet-sin-gh/Hotel-project/blob/main/Screenshot%202025-02-21%20131038.png?raw=true)
