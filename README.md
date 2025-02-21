@@ -30,3 +30,4 @@ Welcome to the Suinet Paradise Hotel website project! This is a responsive web a
 - Contributions are welcome! If you have suggestions for improvements or new features, feel free to fork the repository and submit a pull request.
 
   ![image_alt](https://github.com/vishwa-jeet-sin-gh/Hotel-project/blob/main/Screenshot%202025-02-21%20131038.png?raw=true)
+  ![image_alt](https://github.com/vishwa-jeet-sin-gh/Hotel-project/blob/60e8c177571979a97ac378e60c1cd9d15235cd95/Screenshot%202025-02-21%20131058.png)
